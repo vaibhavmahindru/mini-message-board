@@ -1,5 +1,5 @@
 # mini-message-board
 
-#Live at :-
+# Live at :-
 
 https://message1-board.herokuapp.com/
