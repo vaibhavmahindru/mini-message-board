@@ -1,0 +1,27 @@
+<%- include('include/header')%>
+  <header class="header">
+    <%= title %>
+  </header>
+  <br /><br />
+  <div class="container">
+    <a href="/new" class="btn btn-outline-success btn-md" role="button">Add new message &nbsp;<i
+        class="fas fa-plus"></i></a>
+    <br /><br />
+    <% for(const msg of messages){%>
+      <div class="card col-sm-6 mb-3">
+        <div class="card-body">
+          <h5 class="card-title">
+            <%= msg.user %>
+          </h5>
+          <h6 class="card-subtitle mb-3 text-muted">
+            <%=format(msg.added, {addSuffix: true})%>
+          </h6>
+          <p class="card-text">
+            <%= msg.text %>
+          </p>
+        </div>
+      </div>
+      <%}%>
+  </div>
+
+  <%- include('include/footer')%>

@@ -1,0 +1,16 @@
+<%- include('include/header')%>
+    <header class="header">
+        <%= title %>
+    </header>
+    <br /><br />
+    <form method="POST" action="/new" class="container">
+        <h1>Add a new message</h1>
+        <br />
+        <input type="text" name="username" id="username" placeholder="Enter your name" class="form-control"
+            required><br /><br />
+        <textarea class="form-control large" name="message" placeholder="Add your message...." required></textarea>
+        <br /><br />
+        <button type="submit" value="submit" class="btn btn-outline-primary btn-lg">Submit</button>
+        <a href="/" role="button" class="btn btn-outline-danger btn-lg">Go Back</a>
+    </form>
+    <%- include('include/footer')%>

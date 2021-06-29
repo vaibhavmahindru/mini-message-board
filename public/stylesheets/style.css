@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+.header{
+	margin-bottom: 0px;
+	padding: 0.75rem 1rem;
+	background-color: #00B7FF;
+	color: white;
+	border-top: 1px solid #494949;
+	border-bottom: 1px solid #494949;
+	font-family: "Nunito";
+	letter-spacing: "0.2em";
+  font-size: 25px;
+  text-align: center;
+}
+
+.sub-heading{
+  padding: 0.75rem 1rem;
+	background-color: #00B7FF;
+	color: white;
+  letter-spacing: "0.2em";
+  font-size: 20px;
+  text-align: center;
+}
+
+.large{
+  height: 100px;
+}
+
+
